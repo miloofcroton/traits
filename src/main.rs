@@ -1,3 +1,9 @@
+mod basket;
+
+use basket::Basket;
+
 fn main() {
-  println!("Hello, world!");
+  let b1 = Basket::new(String::from("testsetset"));
+
+
 }
